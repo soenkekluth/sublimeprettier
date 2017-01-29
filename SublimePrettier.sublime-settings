@@ -1,0 +1,41 @@
+{
+  // Simply using `node` without specifying a path sometimes doesn't work :(
+  // https://github.com/victorporof/Sublime-HTMLPrettify#oh-noez-command-not-found
+  // http://nodejs.org/#download
+  "node_path": {
+    "windows": "C:/Program Files/nodejs/node.exe",
+    "linux": "/usr/bin/nodejs",
+    "osx": "/usr/local/bin/node"
+  },
+
+  // Automatically format when a file is saved.
+  "format_on_save": false,
+
+  // Only format the selection if there's one available.
+  "format_selection_only": true,
+
+  // Log the settings passed to the prettifier from `.jsbeautifyrc`.
+  "print_diagnostics": false,
+
+
+  "prettier": {
+
+    // Fit code within this line limit
+    "printWidth": 120,
+
+    "tabWidth": 2,
+
+    // If true, will use single instead of double quotes
+    "singleQuote": true,
+
+    // Controls the printing of trailing commas wherever possible
+    "trailingComma": true,
+
+    // Controls the printing of spaces inside array and objects
+    "bracketSpacing": true,
+
+    // Which parser to use. Valid options are "flow" and "babylon"
+    "parser": "babylon"
+
+  }
+}
