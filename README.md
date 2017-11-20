@@ -1,5 +1,7 @@
 # SublimePrettier
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/soenkekluth/sublimeprettier.svg)](https://greenkeeper.io/)
+
 
 A Sublime Text Plug-in for [Prettier], the opinionated JavaScript formatter.
 
